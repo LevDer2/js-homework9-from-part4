@@ -1,0 +1,22 @@
+{
+  "name": "js-homework9-from-part4",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /js-homework9-from-part4/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.16.0"
+  },
+  "dependencies": {
+    "@partiellkorrekt/parcel-transformer-handlebars": "^1.0.5",
+    "handlebars": "^4.7.8"
+  }
+}
